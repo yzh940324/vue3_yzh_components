@@ -2,7 +2,7 @@
  * @Author: 俞志豪
  * @Date: 2022-04-17 17:09:10
  * @LastEditors: yzh
- * @LastEditTime: 2022-04-25 22:13:36
+ * @LastEditTime: 2022-04-26 13:51:14
  * @Description: file content
  * @RouteName: 
  * @To: 
@@ -23,7 +23,7 @@ module.exports = {
     lang: 'zh-CN',
     head: [['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.jpg' }]],
     themeConfig: {
-        repo: 'yzh940324/vue',
+        repo: 'yzh940324/vue3_yzh_components',
         repoLabel:'GitHub',
         docsDir: 'docs',
         docsBranch: 'master',
