@@ -1,0 +1,31 @@
+{
+  "name": "vite-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "element-plus": "^2.1.10",
+    "fs": "^0.0.1-security",
+    "markdown-it-container": "^3.0.0",
+    "path": "^0.12.7",
+    "prismjs": "^1.28.0",
+    "sass": "^1.50.0",
+    "vitepress": "^0.22.3",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
